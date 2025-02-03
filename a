@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<body style="background-color:rgb(4, 60, 27);">
+<img src="st jude.png" alt="Cite" width="1550" height="80">
+
+<style>
+    body {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Medium, sans-serif}
+    {box-sizing: border-box;}
+.navbar {
+   
+    }
+
+    .navbar ul {
+    width: 50%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: normal;
+    position: relative;
+    background-color: #17441f;
+    justify-content: space-between;
+    }
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+    }
+
+    /
+    .navbar ul li {
+        display: inline-block;
+        margin: 0 20px; 
+        position: absolute; 
+    }
+
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #e4ece6;
+        text-transform: uppercase;
+        font-size: 16px; 
+        padding: 10px 0; 
+    }
+
+    
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0%; 
+        background: #ddd; 
+        position: absolute;
+        left: 0;
+        bottom: -10px; 
+        transition: width 0.3s ease; 
+
+    
+    .navbar ul li:hover::after {
+        width: 100%; 
+    }
+</style>
+
+<div class="navbar">
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+    </ul>
+</div>
+
+<img src="backq.jpg" alt="People" width="1550" height="250">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<style>
+    h1 {
+        text-align: center;
+        color: #ffdb4f; 
+        font-family: 'Inter', sans-serif; 
+        font-weight: 500; 
+        font-size: 36px; 
+    }
+</style>
+
+<h1 style="text-align:center;">Making lives better through Information Technology Education</h1>
+
+
+</body>
+</html>
